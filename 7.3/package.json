@@ -1,0 +1,29 @@
+{
+  "name": "7.3",
+  "version": "1.0.0",
+  "description": "Jest test netology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halestormik/AJS.-Jest.-Playwright.git"
+  },
+  "keywords": [
+    "Jest",
+    "neto"
+  ],
+  "author": "halestormik (Bogdan Yakhno)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halestormik/AJS.-Jest.-Playwright/issues"
+  },
+  "homepage": "https://github.com/halestormik/AJS.-Jest.-Playwright#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "eslint": "^9.6.0"
+  }
+}

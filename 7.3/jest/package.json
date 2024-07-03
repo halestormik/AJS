@@ -4,16 +4,41 @@
   "description": "jest test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
   },
   "keywords": [
     "jest",
     "test",
     "jsaqa"
   ],
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/coverages/**"
+  ],
   "author": "omelnikova",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
-  }
+    "jest": "^27.3.1",
+    "playwright": "^1.45.0"
+  },
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100
+    }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halestormik/AJS.-Playwright.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halestormik/AJS.-Playwright/issues"
+  },
+  "homepage": "https://github.com/halestormik/AJS.-Playwright#readme"
 }

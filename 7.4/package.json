@@ -1,0 +1,30 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "puppeteer part1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halestormik/Puppeteer_part1.git"
+  },
+  "keywords": [
+    "netology",
+    "puppeteer",
+    "part",
+    "1"
+  ],
+  "author": "halestormik (Bogdan Yakhno)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halestormik/Puppeteer_part1/issues"
+  },
+  "homepage": "https://github.com/halestormik/Puppeteer_part1#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^10.0.1",
+    "puppeteer": "^22.12.1"
+  }
+}
