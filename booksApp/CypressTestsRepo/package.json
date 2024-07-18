@@ -1,0 +1,22 @@
+{
+  "name": "cypresstestsrepo",
+  "version": "1.0.0",
+  "description": "cypress tests",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:laptop:headless": "npx cypress run -b chrome -C cypress.config.js",
+    "cy:laptop:headed-edge": "npx cypress run -b edge --headed -C cypress.config.js",
+    "cy:laptop:headed-chrome": "npx cypress run -b chrome --headed -C cypress.config.js",
+    "cy:laptop:headed-electron": "npx cypress run -b electron --headed -C cypress.config.js",
+    "cy:mobile:headless": "npx cypress run -b edge -C cypress.config-mobile.js",
+    "cy:mobile:headed-chrome": "npx cypress run -b chrome --headed -C cypress.config-mobile.js",
+    "cy:mobile:headed-edge": "npx cypress run -b edge --headed -C cypress.config-mobile.js",
+    "cy:mobile:headed-electron": "npx cypress run -b electron --headed -C cypress.config-mobile.js"
+  },
+  "author": "halestormik (Bogdan Yakhno)",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.0"
+  }
+}
